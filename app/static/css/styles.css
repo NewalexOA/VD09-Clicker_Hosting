@@ -1,0 +1,65 @@
+body {
+    background-color: #2c3e50; /* Темно-синий фон */
+    color: #ecf0f1; /* Светло-серый текст */
+}
+
+.custom-input {
+    background-color: #34495e; /* Темно-серый фон полей ввода */
+    color: #ecf0f1; /* Светло-серый текст */
+    border: 1px solid #4b6584; /* Светло-синий бордюр */
+    border-radius: 5px;
+}
+
+.custom-input::placeholder {
+    color: #95a5a6; /* Серый текст для placeholder */
+}
+
+.custom-input:focus {
+    background-color: #3a3a3d; /* Темный фон при фокусе */
+    color: #ffffff; /* Белый текст */
+    border-color: #f39c12; /* Желтый бордюр при фокусе */
+}
+
+.custom-btn {
+    background-color: #f39c12; /* Ярко-желтая кнопка */
+    color: #2c3e50; /* Темно-синий текст на кнопке */
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #e67e22; /* Темно-желтая кнопка при наведении */
+    color: #ffffff; /* Белый текст на кнопке при наведении */
+}
+
+.navbar {
+    background-color: #1a252f; /* Темно-синий фон */
+}
+
+.navbar-brand, .nav-link {
+    color: #ecf0f1 !important; /* Светло-серый текст */
+}
+
+.nav-link:hover {
+    color: #f39c12 !important; /* Ярко-желтый текст при наведении */
+}
+
+.alert-container .alert {
+    background-color: #1a252f; /* Темно-синий фон */
+    color: #ecf0f1; /* Светло-серый текст */
+}
+
+.alert .close {
+    color: #ecf0f1; /* Светло-серый текст */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #34495e; /* Темно-серый фон */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
